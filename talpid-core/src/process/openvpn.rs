@@ -30,6 +30,7 @@ static BASE_ARGUMENTS: &[&[&str]] = &[
     &["--sndbuf", "1048576"],
     &["--fast-io"],
     &["--data-ciphers-fallback", "AES-256-GCM"],
+    &["--data-ciphers", "CHACHA20-POLY1305"],
     &["--tls-version-min", "1.3"],
     &["--verb", "3"],
     #[cfg(windows)]
